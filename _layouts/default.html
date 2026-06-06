@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS link -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container">
+    <h2 class="logo">Rajalakshmi</h2>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about/">About</a>
+      <a href="/projects/">Projects</a>
+      <a href="/resume/">Resume</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="container">
+    <h1>Rajalakshmi Venkatesan</h1>
+    <p>Data Engineer | Analytics | Intelligent Systems</p>
+  </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<main class="container">
+  {{ content }}
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 Rajalakshmi Venkatesan</p>
+</footer>
+
+</body>
+</html>
+``
