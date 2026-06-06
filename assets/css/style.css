@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial;
+  background: #0d1117;
+  color: #c9d1d9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  background: #161b22;
+  padding: 15px 0;
+  border-bottom: 1px solid #30363d;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #58a6ff;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero p {
+  color: #8b949e;
+}
+
+/* Main content */
+main {
+  padding: 30px 0;
+}
+
+/* Cards */
+.card {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #30363d;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #30363d;
+}
