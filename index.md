@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: Premium portfolio homepage for Rajalakshmi Venkatesan.
+description: portfolio homepage for Rajalakshmi Venkatesan.
 permalink: /
 ---
 
