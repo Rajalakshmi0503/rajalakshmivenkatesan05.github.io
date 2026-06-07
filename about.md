@@ -33,3 +33,4 @@ I am a data and analytics professional focused on turning raw information into s
 - Reporting and semantic modeling concepts
 - Google Cloud-aligned data workflow thinking
 - Documentation and governance practices
+   
